@@ -1,3 +1,7 @@
+<?php 
+require_once "../config/Config.php";
+echo Config::DEVWEBCAMP;
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -10,5 +14,15 @@
 
 	<h2>Proyectos de diseño en CSS.</h2>
 	<p>E-Commerce <a href="/tienda-muebles/">Tienda de Muebles</a> </p>
+	
+	<p><a href="/blogdecafe/">Blog de café</a>. Blog sobre el café, y cursos</p>
+	<p><a href="/frontendstore">Frontend Store</a>. Tienda de venta de camisetas</p>
+	<p><a href="/rock-edm-festival">Rock EDM Festival</a>. Festival de Rock</p>
+
+	<h2>Aplicaciones completas con CSS, PHP, Bases de datos y JavaScript.</h2>
+
+	<p><a href="<?= "https://". Config::DEVWEBCAMP; ?>">DevWebCamp</a>. Proyecto de un Webcamp de conferencias</p>
+	<p><a href="<?= "https://". Config::BIENES_RAICES; ?>">Bienes Raíces</a>. Aplicación de una inmobiliaria, con gestión de propiedades y vendedores</p>
+	<p><a href="<?= "https://". Config::APPSALON; ?>">APPSALON</a>. Gestión de reservas en una peluquería. Se pueden reservar servicios.</p>
 </body>
 </html>
