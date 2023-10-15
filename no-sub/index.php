@@ -1,6 +1,5 @@
 <?php 
 require_once "../config/Config.php";
-echo Config::DEVWEBCAMP;
 ?>
 <!DOCTYPE html>
 <html lang="es">
