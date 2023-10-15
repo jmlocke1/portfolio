@@ -5,6 +5,9 @@ cd ..
 cd DevWebCamp
 git push
 cd ..
+cd appsalon
+git push
+cd ..
 
 @REM Repositorios sin virtualHost
 
