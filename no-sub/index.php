@@ -23,5 +23,7 @@ require_once "../config/Config.php";
 	<p><a href="<?= "https://". Config::DEVWEBCAMP; ?>">DevWebCamp</a>. Proyecto de un Webcamp de conferencias</p>
 	<p><a href="<?= "https://". Config::BIENES_RAICES; ?>">Bienes Raíces</a>. Aplicación de una inmobiliaria, con gestión de propiedades y vendedores</p>
 	<p><a href="<?= "https://". Config::APPSALON; ?>">APPSALON</a>. Gestión de reservas en una peluquería. Se pueden reservar servicios.</p>
+	<p><a href="<?= "https://". Config::UPTASK; ?>">UpTask</a>. Crea y administra tus proyectos. Crea proyectos y tareas para los proyectos. Puedes cambiar las tareas a pendientes o completas.</p>
+
 </body>
 </html>
