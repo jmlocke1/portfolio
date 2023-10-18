@@ -8,6 +8,10 @@ cd ..
 cd appsalon
 git push
 cd ..
+cd uptask
+git push
+cd ..
+
 
 @REM Repositorios sin virtualHost
 

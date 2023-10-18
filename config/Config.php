@@ -5,4 +5,5 @@ class Config {
 	const DEVWEBCAMP = ConfigLocal::DEVWEBCAMP;
 	const BIENES_RAICES = ConfigLocal::BIENES_RAICES;
 	const APPSALON = ConfigLocal::APPSALON;
+	const UPTASK = ConfigLocal::UPTASK;
 }

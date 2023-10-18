@@ -4,5 +4,6 @@ class ConfigLocal {
 	const DEVWEBCAMP = "devwebcamp.test";
 	const BIENES_RAICES = "bienes-raices.test";
 	const APPSALON = "appsalon.test";
+	const UPTASK = "uptask.test";
 }
 ?>

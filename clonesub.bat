@@ -2,6 +2,8 @@
 git clone git@github.com:jmlocke1/DevWebCamp.git
 git clone git@github.com:jmlocke1/bienesraices.git
 git clone git@github.com:jmlocke1/appsalon.git
+git clone git@github.com:jmlocke1/uptask.git
+
 
 @REM Repositorios sin subdominio
 cd no-sub

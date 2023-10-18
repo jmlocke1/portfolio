@@ -8,6 +8,9 @@ cd ..
 cd appsalon
 git pull
 cd ..
+cd uptask
+git pull
+cd ..
 
 
 @REM Repositorios sin virtualHost
