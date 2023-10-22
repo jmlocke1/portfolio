@@ -1,3 +1,5 @@
+#!/bin/bash
+# -*- ENCODING: UTF-8 -*-
 # Repositorios con subdominio
 
 cd DevWebCamp

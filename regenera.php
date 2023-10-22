@@ -146,6 +146,9 @@ escribe('pull.bat', $texto);
 
 // Linux
 $texto = <<<PRE
+#!/bin/bash
+# -*- ENCODING: UTF-8 -*-
+
 # Primero obtenemos los cambios del repositorio actual
 git pull
 
@@ -224,7 +227,12 @@ PRE;
 escribe('push.bat', $texto);
 
 // Linux
-$texto = "# Repositorios con subdominio".PHP_EOL.PHP_EOL;
+$texto = <<<PRE
+#!/bin/bash
+# -*- ENCODING: UTF-8 -*-
+
+PRE;
+$texto .= "# Repositorios con subdominio".PHP_EOL.PHP_EOL;
 foreach($subdomain as $repo){
 	$texto .= <<<PRE
 cd {$repo['name']}

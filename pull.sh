@@ -1,3 +1,6 @@
+#!/bin/bash
+# -*- ENCODING: UTF-8 -*-
+
 # Primero obtenemos los cambios del repositorio actual
 git pull
 
