@@ -1,10 +1,12 @@
-#!/bin/bash
-# -*- ENCODING: UTF-8 -*-
+# Primero obtenemos los cambios del repositorio actual
+git pull
+
 # Repositorios con subdominio
-cd bienesraices
+
+cd DevWebCamp
 git pull
 cd ..
-cd DevWebCamp
+cd bienesraices
 git pull
 cd ..
 cd appsalon
@@ -16,6 +18,7 @@ cd ..
 
 
 # Repositorios sin subdominio
+
 cd no-sub
 cd blogdecafe
 git pull
@@ -31,4 +34,5 @@ git pull
 cd ..
 
 # Volvemos al repositorio raíz
+
 cd ..

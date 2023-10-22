@@ -1,4 +1,4 @@
-@REM Repositorios con subdominio
+# Repositorios con subdominio
 
 cd DevWebCamp
 git push
@@ -14,7 +14,7 @@ git push
 cd ..
 
 
-@REM Repositorios sin subdominio
+# Repositorios sin subdominio
 
 cd no-sub
 cd blogdecafe
@@ -30,6 +30,6 @@ cd tienda-muebles
 git push
 cd ..
 
-@REM Volvemos al repositorio raíz
+# Volvemos al repositorio raíz
 
 cd ..

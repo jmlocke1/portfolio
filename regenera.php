@@ -1,4 +1,6 @@
 <?php
+// Definimos el directorio padre del sistema
+define("DIR_ROOT", __DIR__);
 // Declaraciones de repositorios
 $subdomain = [
 	[
@@ -43,6 +45,13 @@ function escribe($fichero, $texto) {
 	fclose($filephp);
 }
 
+function debuguear($variable){
+    echo "<pre>";
+    var_dump($variable);
+    echo "</pre>";
+    exit;
+}
+
 // Fichero .gitignore
 $texto = <<<PRE
 # Copia de seguridad de scripts en linux
@@ -59,6 +68,7 @@ foreach($noSubdomain as $repo){
 	$texto .= $repo['name'].PHP_EOL;
 }
 escribe('.gitignore', $texto);
+
 
 // Fichero para clonar todos los repositorios
 // Windows
@@ -78,6 +88,8 @@ $texto = <<<PRE
 #!/bin/bash
 # -*- ENCODING: UTF-8 -*-
 # Repositorios con subdominio
+
+
 PRE;
 foreach($subdomain as $repo){
 	$texto .= "git clone {$repo['repo']}".PHP_EOL;

@@ -1,8 +1,12 @@
-@REM Repositorios con virtualHost
-cd bienesraices
+@REM Primero obtenemos los cambios del repositorio actual
+git pull
+
+@REM Repositorios con subdominio
+
+cd DevWebCamp
 git pull
 cd ..
-cd DevWebCamp
+cd bienesraices
 git pull
 cd ..
 cd appsalon
@@ -13,7 +17,7 @@ git pull
 cd ..
 
 
-@REM Repositorios sin virtualHost
+@REM Repositorios sin subdominio
 
 cd no-sub
 cd blogdecafe
@@ -30,4 +34,5 @@ git pull
 cd ..
 
 @REM Volvemos al repositorio raíz
+
 cd ..

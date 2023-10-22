@@ -1,9 +1,16 @@
+# Copia de seguridad de scripts en linux
+*.sh~
+
+# Repositorios con subdominio
 DevWebCamp
 bienesraices
 appsalon
-frontendstore
+uptask
+
+
+# Repositorios sin subdominio
+
 blogdecafe
+frontendstore
 rock-edm-festival
 tienda-muebles
-uptask
-*.sh~
