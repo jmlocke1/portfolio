@@ -12,11 +12,11 @@ require_once "../config/Config.php";
 	<h1>Portfolio personal de José Miguel</h1>
 
 	<h2>Proyectos de diseño en CSS.</h2>
-	<p>E-Commerce <a href="/tienda-muebles/">Tienda de Muebles</a> </p>
-	
+	<p>E-Commerce <a href="/tienda-muebles/">Tienda de Muebles</a> </p>	
 	<p><a href="/blogdecafe/">Blog de café</a>. Blog sobre el café, y cursos</p>
 	<p><a href="/frontendstore">Frontend Store</a>. Tienda de venta de camisetas</p>
 	<p><a href="/rock-edm-festival">Rock EDM Festival</a>. Festival de Rock</p>
+	<p><a href="/tech-pro">TechPro</a>. Ejemplo de Landing Page de venta de una marca de auriculares.</p>
 
 	<h2>Aplicaciones completas con CSS, PHP, Bases de datos y JavaScript.</h2>
 

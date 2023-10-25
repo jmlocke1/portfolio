@@ -31,6 +31,9 @@ cd ..
 cd tienda-muebles
 git push
 cd ..
+cd tech-pro
+git push
+cd ..
 
 # Volvemos al repositorio raíz
 

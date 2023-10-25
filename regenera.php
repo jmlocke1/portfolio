@@ -36,6 +36,10 @@ $noSubdomain = [
 	[
 		'name' => 'tienda-muebles',
 		'repo' => 'git@github.com:jmlocke1/tienda-muebles.git'
+	],
+	[
+		'name' => 'tech-pro',
+		'repo' => 'git@github.com:jmlocke1/tech-pro.git'
 	]
 ];
 // Funciones

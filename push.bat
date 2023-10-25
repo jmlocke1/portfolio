@@ -29,6 +29,9 @@ cd ..
 cd tienda-muebles
 git push
 cd ..
+cd tech-pro
+git push
+cd ..
 
 @REM Volvemos al repositorio raíz
 
