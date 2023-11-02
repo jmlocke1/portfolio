@@ -35,6 +35,9 @@ cd ..
 cd tech-pro
 git pull
 cd ..
+cd arquitectura-bosque
+git pull
+cd ..
 
 @REM Volvemos al repositorio raíz
 

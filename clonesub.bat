@@ -13,3 +13,4 @@ git clone git@github.com:jmlocke1/frontendstore.git no-sub/frontendstore
 git clone git@github.com:jmlocke1/rock-edm-festival.git no-sub/rock-edm-festival
 git clone git@github.com:jmlocke1/tienda-muebles.git no-sub/tienda-muebles
 git clone git@github.com:jmlocke1/tech-pro.git no-sub/tech-pro
+git clone git@github.com:jmlocke1/arquitectura-bosque.git no-sub/arquitectura-bosque

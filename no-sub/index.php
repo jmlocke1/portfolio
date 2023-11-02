@@ -17,6 +17,7 @@ require_once "../config/Config.php";
 	<p><a href="/frontendstore">Frontend Store</a>. Tienda de venta de camisetas</p>
 	<p><a href="/rock-edm-festival">Rock EDM Festival</a>. Festival de Rock</p>
 	<p><a href="/tech-pro">TechPro</a>. Ejemplo de Landing Page de venta de una marca de auriculares.</p>
+	<p><a href="/arquitectura-bosque">Arquitectura Bosque</a>. Plantilla de un diseño de casas en el bosque</p>
 
 	<h2>Aplicaciones completas con CSS, PHP, Bases de datos y JavaScript.</h2>
 

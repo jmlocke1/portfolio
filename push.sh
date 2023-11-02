@@ -34,6 +34,9 @@ cd ..
 cd tech-pro
 git push
 cd ..
+cd arquitectura-bosque
+git push
+cd ..
 
 # Volvemos al repositorio raíz
 
