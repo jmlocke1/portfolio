@@ -7,8 +7,30 @@ require_once "../config/Config.php";
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Portfolio de José Miguel</title>
+	<link rel="stylesheet" href="build/css/normalize.css">
+	<link rel="stylesheet" href="build/css/styles.css">
 </head>
 <body>
+	<header class="header">
+		<div class="contenedor contenido-header">
+			<div class="barra">
+				<div class="logo">
+					<div class="h1 nombre-sitio">Portfolio de <span>José Miguel</span></div>
+				</div>
+				<nav class="navegacion">
+					<a class="link" href="#">Inicio</a>
+					<a class="link" href="#">Nosotros</a>
+					<a class="link" href="#">Modelos</a>
+					<a class="link" href="#">Galería</a>
+					<a class="link" href="#">Contacto</a>
+				</nav>
+			</div>
+			<div class="slogan">
+				<div class="h1">Trabajos que he realizado</div>
+				<p>Proyectos personales que he desarrollado</p>
+			</div>
+		</div>
+	</header>
 	<h1>Portfolio personal de José Miguel</h1>
 
 	<h2>Proyectos de diseño en CSS.</h2>

@@ -65,6 +65,13 @@ $texto = <<<PRE
 # Copia de seguridad de scripts en linux
 *.sh~
 
+# Genéricos
+**/node_modules/
+*.js.map
+*.css.map
+**/vendor/
+**/nbproject/
+
 # Repositorios con subdominio
 
 PRE;
