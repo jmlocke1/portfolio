@@ -1,5 +1,6 @@
 <?php 
 require_once "../config/Config.php";
+$background = imageOfTheDay();
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -7,6 +8,11 @@ require_once "../config/Config.php";
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Portfolio de José Miguel</title>
+	<style>
+		.header {
+			background-image: url(<?= $background; ?>);
+		}
+	</style>
 	<link rel="stylesheet" href="build/css/normalize.css">
 	<link rel="stylesheet" href="build/css/styles.css">
 </head>
