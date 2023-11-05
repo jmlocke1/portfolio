@@ -12,6 +12,8 @@
 	--blanco: #FFF;
 	--negro: #111111;
 	--gris: #343A40;
+	--gris-claro: #8b8b8b;
+	--azul_claro: rgb(235, 235, 245);
 	--amarillo: rgb(243, 243, 9);
 
 	--FuentePrincipal: 'Raleway', sans-serif;
@@ -20,6 +22,7 @@
 html {
 	font-size: 62.5%;
 	box-sizing: border-box;
+	background-color: var(--azul_claro);
 }
 *, *:before, *:after {
 	box-sizing: inherit;
@@ -45,10 +48,12 @@ h3 {
 }
 a {
 	text-decoration: none;
+
 }
-img {
-	max-width: 100%;
+img, picture {
+	width: 100%;
 	display: block;
+	border: 0;
 }
 .contenedor {
 	max-width: 120rem;
@@ -189,4 +194,45 @@ img {
 .slogan p {
 	margin: 0;
 	line-height: 1;
+}
+
+.proyectos {
+	margin-top: 5rem;
+}
+.proyectos a:visited h3 {
+	color: var(--negro);
+}
+.proyectos__heading {
+	text-align: center;
+}
+@media(min-width: 768px) {
+    .proyectos__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+@media(min-width: 912px) {
+	.proyectos__grid {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+.proyecto {
+	background-color: var(--blanco);
+	
+    box-shadow: 5px 5px 10px;
+}
+.proyecto:hover {
+	box-shadow: 10px 10px 10px;
+}
+.proyecto__contenido {
+	padding: 2rem;
+}
+.proyecto__nombre {
+	color: var(--negro);
+	text-align: center;
+}
+.proyecto__descripcion {
+	color: var(--gris-claro);
+    margin: 0;
 }
