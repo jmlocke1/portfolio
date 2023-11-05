@@ -209,7 +209,7 @@ img, picture {
     .proyectos__grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
+        gap: 3rem;
     }
 }
 @media(min-width: 912px) {
@@ -219,11 +219,13 @@ img, picture {
 }
 .proyecto {
 	background-color: var(--blanco);
-	
     box-shadow: 5px 5px 10px;
+	transition-property: transform box-shadow;
+	transition-duration: 300ms;
 }
 .proyecto:hover {
 	box-shadow: 10px 10px 10px;
+	transform: scale(1.08);
 }
 .proyecto__contenido {
 	padding: 2rem;
