@@ -222,7 +222,7 @@ img, picture {
     box-shadow: 5px 5px 10px;
 	transition-property: transform box-shadow;
 	transition-duration: 300ms;
-	margin-bottom: 5rem;
+	margin-bottom: 3rem;
 }
 .proyecto:last-of-type {
 	margin-bottom: 0;
