@@ -37,6 +37,9 @@ cd ..
 cd arquitectura-bosque
 git push
 cd ..
+cd nucleus
+git push
+cd ..
 
 # Volvemos al repositorio raíz
 

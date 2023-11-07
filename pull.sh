@@ -41,6 +41,9 @@ cd ..
 cd arquitectura-bosque
 git pull
 cd ..
+cd nucleus
+git pull
+cd ..
 
 # Volvemos al repositorio raíz
 

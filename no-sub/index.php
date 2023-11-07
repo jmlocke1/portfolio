@@ -132,6 +132,20 @@ $background = imageOfTheDay();
 						</div>
 					</a>
 				</div> <!-- proyecto -->
+
+				<div class="proyecto">
+					<a href="/nucleus" title="Plantilla de un diseño de aplicación móvil de pagos y cobros en línea.">
+						<picture>
+							<source srcset="build/img/portfolio/nucleus.avif" type="image/avif">
+							<source srcset="build/img/portfolio/nucleus.webp" type="image/webp">
+							<img loading="lazy" src="build/img/portfolio/nucleus.jpg" width="500" heigth="300" alt="Plantilla de un diseño de aplicación móvil de pagos y cobros en línea.">
+						</picture>
+						<div class="proyecto__contenido">
+							<h3 class="proyecto__nombre">Nucleus</h3>
+							<p class="proyecto__descripcion">Plantilla de un diseño de aplicación móvil de pagos y cobros en línea.</p>
+						</div>
+					</a>
+				</div> <!-- proyecto -->
 			</div> <!-- .proyectos__grid -->
 		</div> <!-- .proyectos -->
 		
