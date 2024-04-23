@@ -44,6 +44,9 @@ cd ..
 cd nucleus
 git pull
 cd ..
+cd cafeteria
+git pull
+cd ..
 
 # Volvemos al repositorio raíz
 

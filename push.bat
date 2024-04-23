@@ -38,6 +38,9 @@ cd ..
 cd nucleus
 git push
 cd ..
+cd cafeteria
+git push
+cd ..
 
 @REM Volvemos al repositorio raíz
 

@@ -146,6 +146,20 @@ $background = imageOfTheDay();
 						</div>
 					</a>
 				</div> <!-- proyecto -->
+
+				<div class="proyecto">
+					<a href="/cafeteria" title="Plantilla de una cafetería que elabora su propio café.">
+						<picture>
+							<source srcset="build/img/portfolio/cafeteria.avif" type="image/avif">
+							<source srcset="build/img/portfolio/cafeteria.webp" type="image/webp">
+							<img loading="lazy" src="build/img/portfolio/cafeteria.jpg" width="500" heigth="300" alt="Página principal de La Cafetería.">
+						</picture>
+						<div class="proyecto__contenido">
+							<h3 class="proyecto__nombre">La Cafetería</h3>
+							<p class="proyecto__descripcion">Plantilla de una cafetería que elabora su propio café. Proyecto realizado con SASS</p>
+						</div>
+					</a>
+				</div> <!-- proyecto -->
 			</div> <!-- .proyectos__grid -->
 		</div> <!-- .proyectos -->
 		

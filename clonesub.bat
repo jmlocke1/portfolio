@@ -15,3 +15,4 @@ git clone git@github.com:jmlocke1/tienda-muebles.git no-sub/tienda-muebles
 git clone git@github.com:jmlocke1/tech-pro.git no-sub/tech-pro
 git clone git@github.com:jmlocke1/arquitectura-bosque.git no-sub/arquitectura-bosque
 git clone git@github.com:jmlocke1/nucleus.git no-sub/nucleus
+git clone git@github.com:jmlocke1/cafeteria.git no-sub/cafeteria
