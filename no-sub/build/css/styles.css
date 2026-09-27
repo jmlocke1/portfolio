@@ -51,6 +51,9 @@ a {
 	text-decoration: none;
 
 }
+ul {
+	list-style-type: circle;
+}
 img, picture {
 	width: 100%;
 	display: block;
