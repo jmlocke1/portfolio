@@ -44,7 +44,7 @@ $background = imageOfTheDay();
 		<p>En este portfolio muestro mis proyectos personales y prácticas realizadas. Hay dos tipos de aplicaciones, los proyectos de diseño en CSS y aplicaciones completas</p>
 		<ul>
 			<li><strong>Proyectos de diseño en CSS</strong>. Estos proyectos solamente tienen el diseño, sin ningún tipo de funcionalidad. Todas ofrecen un diseño totalmente responsivo que se adapta a todos los tamaños de navegador</li>
-			<li><strong>Aplicaciones completas</strong>. Aplicaciones completas con CSS, backend en PHP, Bases de datos y JavaScript</li>
+			<li><strong>Aplicaciones completas</strong>. Aplicaciones completas con CSS, backend en PHP, Bases de datos y JavaScript.</li>
 		</ul>
 	</div>
 	
