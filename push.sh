@@ -14,6 +14,9 @@ cd ..
 cd uptask
 git push
 cd ..
+cd cotizador-prestamos
+git push
+cd ..
 
 
 # Repositorios sin subdominio

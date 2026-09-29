@@ -18,7 +18,11 @@ $subdomain = [
 	[
 		'name' => 'uptask',
 		'repo' => 'git@github.com:jmlocke1/uptask.git'
-	]
+	],
+	[
+		'name' => 'cotizador-prestamos',
+		'repo' => 'git@github.com:jmlocke1/cotizador-prestamos.git'
+	],
 ];
 $noSubdomain = [
 	[

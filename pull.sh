@@ -18,6 +18,9 @@ cd ..
 cd uptask
 git pull
 cd ..
+cd cotizador-prestamos
+git pull
+cd ..
 
 
 # Repositorios sin subdominio

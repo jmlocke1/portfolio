@@ -5,5 +5,6 @@ class ConfigLocal {
 	const BIENES_RAICES = "bienes-raices.test";
 	const APPSALON = "appsalon.test";
 	const UPTASK = "uptask.test";
+	const COTIZADOR_PRESTAMOS = "localhost:5173";
 }
 ?>

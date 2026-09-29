@@ -226,6 +226,20 @@ $background = imageOfTheDay();
 						</div>
 					</a>
 				</div> <!-- proyecto -->
+
+				<div class="proyecto">
+					<a href="<?= "http://". Config::COTIZADOR_PRESTAMOS; ?>" title="Cotizador de préstamos.">
+						<picture>
+							<source srcset="build/img/portfolio/cotizador-prestamos.avif" type="image/avif">
+							<source srcset="build/img/portfolio/cotizador-prestamos.webp" type="image/webp">
+							<img loading="lazy" src="build/img/portfolio/cotizador-prestamos.jpg" width="500" heigth="300" alt="Cotizador de préstamos.">
+						</picture>
+						<div class="proyecto__contenido">
+							<h3 class="proyecto__nombre">Cotizador de Préstamos</h3>
+							<p class="proyecto__descripcion">Calcula tus préstamos indicando la cantidad que deseas y el tiempo. Puedes elegir entre varias divisas.</p>
+						</div>
+					</a>
+				</div> <!-- proyecto -->
 			</div> <!-- .proyectos__grid -->
 		</div> <!-- .proyectos -->
 	</div>

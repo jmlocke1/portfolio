@@ -4,6 +4,7 @@ git clone git@github.com:jmlocke1/DevWebCamp.git
 git clone git@github.com:jmlocke1/bienesraices.git
 git clone git@github.com:jmlocke1/appsalon.git
 git clone git@github.com:jmlocke1/uptask.git
+git clone git@github.com:jmlocke1/cotizador-prestamos.git
 
 
 @REM Repositorios sin subdominio

@@ -8,6 +8,7 @@ class Config {
 	const BIENES_RAICES = ConfigLocal::BIENES_RAICES;
 	const APPSALON = ConfigLocal::APPSALON;
 	const UPTASK = ConfigLocal::UPTASK;
+	const COTIZADOR_PRESTAMOS = ConfigLocal::COTIZADOR_PRESTAMOS;
 	const DIR_IMG_PRINCIPAL = '/build/img/principal/';
 	const ABSOLUTE_DIR_IMG_PRINCIPAL = DIR_ROOT . '/no-sub' . self::DIR_IMG_PRINCIPAL;
 	const IMAGE_TYPES = ['jpg', 'webp', 'avif'];
